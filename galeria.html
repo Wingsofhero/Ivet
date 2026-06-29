@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Galéria Kozmetického salónu IVET Trnava." />
+    <title>Galéria | Kozmetický salón IVET Trnava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Kozmetický salón IVET">
+        <span class="brand-mark">I</span>
+        <span>
+          <strong>IVET</strong>
+          <small>Kozmetický salón</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Hlavná navigácia">
+        <a href="index.html#sluzby">Služby</a>
+        <a href="cennik.html">Cenník</a>
+        <a href="index.html#kontakt">Kontakt</a>
+        <a href="galeria.html">Galéria</a>
+      </nav>
+      <a class="call-link" href="tel:+421908749265">Zavolať</a>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Galéria</p>
+        <h1>Galéria</h1>
+        <p class="lead">Ukážky zo salónu a kozmetickej práce.</p>
+      </section>
+
+      <section class="section gallery-page">
+        <div class="gallery-grid" data-gallery>
+          <button type="button" data-src="assets/gallery/foto-01.jpg"><img src="assets/gallery/foto-01.jpg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-02.jpg"><img src="assets/gallery/foto-02.jpg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-03.jpg"><img src="assets/gallery/foto-03.jpg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-04.jpg"><img src="assets/gallery/foto-04.jpg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-05.jpg"><img src="assets/gallery/foto-05.jpg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-06.jpg"><img src="assets/gallery/foto-06.jpg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-07.jpg"><img src="assets/gallery/foto-07.jpg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-08.jpeg"><img src="assets/gallery/foto-08.jpeg" alt="Ukážka zo salónu IVET" /></button>
+          <button type="button" data-src="assets/gallery/foto-09.jpeg"><img src="assets/gallery/foto-09.jpeg" alt="Ukážka zo salónu IVET" /></button>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox hidden>
+      <button class="lightbox-close" type="button" data-lightbox-close aria-label="Zavrieť galériu">×</button>
+      <button class="lightbox-prev" type="button" data-lightbox-prev aria-label="Predchádzajúca fotka">‹</button>
+      <img src="" alt="Zväčšená fotka zo salónu IVET" data-lightbox-image />
+      <button class="lightbox-next" type="button" data-lightbox-next aria-label="Ďalšia fotka">›</button>
+    </div>
+
+    <footer class="site-footer">
+      <span>Kozmetický salón IVET Trnava</span>
+      <a href="index.html">Späť na úvod</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
